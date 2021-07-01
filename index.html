@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="bar" class="bar"></div>
+      <div class="numpad">
+        <button
+          id="num"
+          onclick="onNum(this)"
+          value="7"
+          style="grid-column: 1; grid-row: 1"
+        >
+          7
+        </button>
+        <button
+          id="num"
+          onclick="onNum(this)"
+          value="8"
+          style="grid-column: 2; grid-row: 1"
+        >
+          8
+        </button>
+        <button
+          id="num"
+          onclick="onNum(this)"
+          value="9"
+          style="grid-column: 3; grid-row: 1"
+        >
+          9
+        </button>
+        <button
+          id="op"
+          onclick="onOp(this)"
+          value="÷"
+          style="grid-column: 4; grid-row: 1"
+        >
+          ÷
+        </button>
+        <button
+          id="num"
+          onclick="onNum(this)"
+          value="4"
+          style="grid-column: 1; grid-row: 2"
+        >
+          4
+        </button>
+        <button
+          id="num"
+          onclick="onNum(this)"
+          value="5"
+          style="grid-column: 2; grid-row: 2"
+        >
+          5
+        </button>
+        <button
+          id="num"
+          onclick="onNum(this)"
+          value="6"
+          style="grid-column: 3; grid-row: 2"
+        >
+          6
+        </button>
+        <button
+          id="op"
+          value="×"
+          onclick="onOp(this)"
+          style="grid-column: 4; grid-row: 2"
+        >
+          ×
+        </button>
+        <button
+          id="num"
+          onclick="onNum(this)"
+          value="1"
+          style="grid-column: 1; grid-row: 3"
+        >
+          1
+        </button>
+        <button
+          id="num"
+          onclick="onNum(this)"
+          value="2"
+          style="grid-column: 2; grid-row: 3"
+        >
+          2
+        </button>
+        <button
+          id="num"
+          onclick="onNum(this)"
+          value="3"
+          style="grid-column: 3; grid-row: 3"
+        >
+          3
+        </button>
+        <button
+          id="op"
+          onclick="onOp(this)"
+          value="−"
+          style="grid-column: 4; grid-row: 3"
+        >
+          −
+        </button>
+        <button
+          id="num"
+          onclick="onNum(this)"
+          value="0"
+          style="grid-column: 1; grid-row: 4"
+        >
+          0
+        </button>
+        <button
+          id="clear"
+          onclick="clearFunc()"
+          style="grid-column: 2; grid-row: 4"
+        >
+          Clear
+        </button>
+        <button
+          id="equals"
+          onclick="onEquals()"
+          style="grid-column: 3; grid-row: 4"
+        >
+          =
+        </button>
+        <button
+          id="op"
+          value="+"
+          onclick="onOp(this)"
+          style="grid-column: 4; grid-row: 4"
+        >
+          +
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
